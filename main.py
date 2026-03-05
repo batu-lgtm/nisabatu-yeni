@@ -136,7 +136,4 @@ def main(page: ft.Page):
     page.add(main_view)
     load_data() # Açılışta verileri çek
 
-# 139, 140 ve 141'i sildin, yerine sadece bu kaldı:
-ft.app(target=main, assets_dir="assets", view=ft.AppView.WEB_BROWSER)
-# Kırmızı çizgili assets_path yerine direkt klasör adını tırnak içinde yazıyoruz:
 ft.app(target=main, assets_dir="assets", view=ft.AppView.WEB_BROWSER)
