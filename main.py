@@ -9,7 +9,7 @@ KEY = "sb_publishable_hXxHVAZlTrwSnkXtgJjOUg_UQthNDcn"
 supabase: Client = create_client(URL, KEY)
 
 def main(page: ft.Page):
-    load_data()
+#    load_data()
     page.title = "Nisa & Batu Private"
     page.theme_mode = "dark"
     page.padding = 0
