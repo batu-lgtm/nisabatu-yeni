@@ -1,14 +1,14 @@
 {
   "builds": [
     {
-      "src": "ana.py",
+      "src": "main.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "(.*)",
-      "dest": "ana.py"
+      "dest": "main.py"
     }
   ]
 }

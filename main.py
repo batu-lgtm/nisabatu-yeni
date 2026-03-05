@@ -138,4 +138,5 @@ def main(page: ft.Page):
 
 # 139, 140 ve 141'i sildin, yerine sadece bu kaldı:
 ft.app(target=main, assets_dir="assets", view=ft.AppView.WEB_BROWSER)
-    ft.app(target=main, assets_dir=assets_path)
+    ft.app(targ# Sadece bu satır kalsın kanka, en başa yasla (boşluk bırakma):
+ft.app(target=main, assets_dir="assets", view=ft.AppView.WEB_BROWSER)
