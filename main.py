@@ -135,6 +135,7 @@ def main(page: ft.Page):
     ], expand=True)
 
     page.add(main_view)
+    load_data()
      # Açılışta verileri çek
 
 ft.app(target=main, assets_dir="assets")
