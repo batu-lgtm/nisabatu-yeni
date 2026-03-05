@@ -9,6 +9,7 @@ KEY = "sb_publishable_hXxHVAZlTrwSnkXtgJjOUg_UQthNDcn"
 supabase: Client = create_client(URL, KEY)
 
 def main(page: ft.Page):
+    load_data()
     page.title = "Nisa & Batu Private"
     page.theme_mode = "dark"
     page.padding = 0
@@ -134,6 +135,6 @@ def main(page: ft.Page):
     ], expand=True)
 
     page.add(main_view)
-    load_data() # Açılışta verileri çek
+     # Açılışta verileri çek
 
 ft.app(target=main, assets_dir="assets")
